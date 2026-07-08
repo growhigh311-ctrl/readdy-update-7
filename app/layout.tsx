@@ -8,6 +8,9 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 export const metadata: Metadata = {
   metadataBase: new URL('https://reddy.guru'),
   alternates: { canonical: '/' },
+  verification: {
+    google: "n7JUomq8SZoTfpIb1wnDf69VD4lhUb8wan9OmIEpqYA",
+  },
   title: "Reddy Anna | Reddy Anna Book | Best Betting Id Provider",
   description:
     "Get your Reddy Anna Book ID instantly. Enjoy cricket IPL betting, casino games, & secure platform. Join Indiaâ€™s trusted betting hub today",
