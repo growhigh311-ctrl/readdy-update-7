@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { CONFIG } from "@/utils/config";
@@ -31,24 +32,44 @@ export default function BlogsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
                 {
+                  title: "Cricket Betting Odds Explained: Format & Value",
+                  date: "May 25, 2026",
+                  desc: "Is \"5/2\" better than \"3.50\"? Understanding the math behind the odds is the first step to identifying \"value\"—the golden rule of professional betting. If you don't understand the numbers, you're not betting; you're guessing.",
+                  link: "/how-cricket-betting-odds-work/",
+                  linkText: "Show More",
+                  isExternal: false
+                },
+                {
                   title: "How to Wager on IPL 2026 Live Sessions",
                   date: "May 24, 2026",
-                  desc: "Learn session betting strategies (6-over, 10-over runs), player outcome props, and ball-by-ball hedging systems to manage risks and lock in profits during active matches."
+                  desc: "Learn session betting strategies (6-over, 10-over runs), player outcome props, and ball-by-ball hedging systems to manage risks and lock in profits during active matches.",
+                  link: CONFIG.whatsappUrl,
+                  linkText: "Read Full Article",
+                  isExternal: true
                 },
                 {
                   title: "Understanding Betting Exchanges: Lay & Back Model",
                   date: "May 20, 2026",
-                  desc: "A beginner's guide to trading live cricket odds on Reddy Anna Tiger & Sky Exchanges. Understand what backing and laying means, and how to operate like a bookmaker."
+                  desc: "A beginner's guide to trading live cricket odds on Reddy Anna Tiger & Sky Exchanges. Understand what backing and laying means, and how to operate like a bookmaker.",
+                  link: CONFIG.whatsappUrl,
+                  linkText: "Read Full Article",
+                  isExternal: true
                 },
                 {
                   title: "How to Instantly Claim & Use Your Welcome Bonus",
                   date: "May 15, 2026",
-                  desc: "Get details on how to set up your verified ID via WhatsApp, deposit starting at just ₹100, and claim your welcome bonus package to play risk-free."
+                  desc: "Get details on how to set up your verified ID via WhatsApp, deposit starting at just ₹100, and claim your welcome bonus package to play risk-free.",
+                  link: CONFIG.whatsappUrl,
+                  linkText: "Read Full Article",
+                  isExternal: true
                 },
                 {
                   title: "Top 5 Live Casino Games to Explore in India",
                   date: "May 10, 2026",
-                  desc: "An extensive review of local live dealer card games including Teen Patti, Andar Bahar, Muflis, and Dragon Tiger. Find out about RNG fair-play mechanisms."
+                  desc: "An extensive review of local live dealer card games including Teen Patti, Andar Bahar, Muflis, and Dragon Tiger. Find out about RNG fair-play mechanisms.",
+                  link: CONFIG.whatsappUrl,
+                  linkText: "Read Full Article",
+                  isExternal: true
                 }
               ].map((blog, idx) => (
                 <div
@@ -64,14 +85,23 @@ export default function BlogsPage() {
                   <p className="text-gray-300 text-xs md:text-sm leading-relaxed">
                     {blog.desc}
                   </p>
-                  <a
-                    href={CONFIG.whatsappUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#00E5FF] hover:text-[#007BFF] text-xs font-black self-start mt-2 border-b border-dashed border-[#00E5FF]/50 hover:border-[#007BFF]/50 pb-0.5"
-                  >
-                    Read Full Article
-                  </a>
+                  {blog.isExternal ? (
+                    <a
+                      href={blog.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#00E5FF] hover:text-[#007BFF] text-xs font-black self-start mt-2 border-b border-dashed border-[#00E5FF]/50 hover:border-[#007BFF]/50 pb-0.5"
+                    >
+                      {blog.linkText}
+                    </a>
+                  ) : (
+                    <Link
+                      href={blog.link}
+                      className="text-[#00E5FF] hover:text-[#007BFF] text-xs font-black self-start mt-2 border-b border-dashed border-[#00E5FF]/50 hover:border-[#007BFF]/50 pb-0.5"
+                    >
+                      {blog.linkText}
+                    </Link>
+                  )}
                 </div>
               ))}
             </div>
