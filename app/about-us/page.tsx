@@ -18,10 +18,10 @@ export default function AboutUsPage() {
           {/* Main Title Banner */}
           <section className="w-full bg-[#0c1322] border border-[#007BFF]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4 shadow-lg shadow-black">
             <h1 className="text-[#00E5FF] font-black text-2xl md:text-3xl tracking-wide leading-tight">
-              About Reddy Anna Book — India's Most Trusted Betting Hub
+              About Reddy Anna Book — India's Most Trusted Hub
             </h1>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Founded in 2010, Reddy Anna Book is India's pioneer and premier online cricket betting ID provider and sports exchange network. Operating through an authorized network of 200+ physical branches and trusted support nodes across India, we have served over millions of active punters.
+              Founded in 2010, Reddy Anna Book is India's pioneer and premier online cricket ID provider and sports exchange network. Operating through an authorized network of 200+ physical branches and trusted support nodes across India, we have served over millions of active punters.
             </p>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
               We stand for speed, fairness, and transparent operations. Our platform supports local payment methods (UPI, Paytm, Net Banking), processes all withdrawals back to local bank accounts in 2-4 hours fee-free, and provides verified account credentials via WhatsApp inside 60 seconds with no hefty documentation or KYC blockades.

@@ -19,13 +19,13 @@ export default function LiveBettingPage() {
           {/* Main Title Banner */}
           <section className="w-full bg-[#0c1322] border border-[#007BFF]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4 shadow-lg shadow-black">
             <h1 className="text-[#00E5FF] font-black text-2xl md:text-3xl tracking-wide leading-tight">
-              Live Betting Online — Real-Time Sports Trading
+              Live Online — Real-Time Sports Trading
             </h1>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Experience the absolute thrill of real-time sports betting. With live-in-play betting, odds update dynamically with every ball bowled, goal scored, or point won. We cover live events across Cricket, Football, Tennis, Basketball, Volleyball, Badminton, and esports.
+              Experience the absolute thrill of real-time sports . With live-in-play , odds update dynamically with every ball bowled, goal scored, or point won. We cover live events across Cricket, Football, Tennis, Basketball, Volleyball, Badminton, and esports.
             </p>
             <div className="pt-2">
-              <ConicButton text="Start Live Betting Now" />
+              <ConicButton text="Start Live Now" />
             </div>
           </section>
 

@@ -4,11 +4,11 @@ import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 
 export const metadata: Metadata = {
-  title: "How Cricket Betting Odds Work: Formats & Value Explained",
+  title: "How Cricket Odds Work: Formats & Value Explained",
   description:
-    "Confused by cricket betting odds? Learn how decimal and fractional odds work, how to calculate implied probability, and how to spot real betting value.",
+    "Confused by cricket odds? Learn how decimal and fractional odds work, how to calculate implied probability, and how to spot real value.",
   alternates: {
-    canonical: "/how-cricket-betting-odds-work/",
+    canonical: "/how-cricket--odds-work/",
   },
 };
 
@@ -28,10 +28,10 @@ export default function CricketBettingOddsPage() {
           {/* Main Title Banner */}
           <section className="w-full bg-[#0c1322] border border-[#007BFF]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4 shadow-lg shadow-black">
             <h1 className="text-[#00E5FF] font-black text-2xl md:text-3xl tracking-wide leading-tight">
-              Cricket Betting Odds Explained: Format & Value
+              Cricket Odds Explained: Format & Value
             </h1>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Is &quot;5/2&quot; better than &quot;3.50&quot;? Understanding the math behind the odds is the first step to identifying &quot;value&quot;—the golden rule of professional betting. If you don&apos;t understand the numbers, you&apos;re not betting; you&apos;re guessing.
+              Is &quot;5/2&quot; better than &quot;3.50&quot;? Understanding the math behind the odds is the first step to identifying &quot;value&quot;—the golden rule of professional . If you don&apos;t understand the numbers, you&apos;re not ; you&apos;re guessing.
             </p>
           </section>
 
@@ -49,7 +49,7 @@ export default function CricketBettingOddsPage() {
                   Decimal Odds (e.g., 2.00)
                 </h4>
                 <p className="text-gray-400 text-xs md:text-sm leading-relaxed">
-                  These are the most common in modern online betting. To calculate your total return, multiply your stake by the decimal. (Stake x Odds = Total Payout).
+                  These are the most common in modern online . To calculate your total return, multiply your stake by the decimal. (Stake x Odds = Total Payout).
                 </p>
               </div>
               <div className="bg-[#05080f] p-5 rounded-2xl border border-[#007BFF]/5 shadow-md">
@@ -140,7 +140,7 @@ export default function CricketBettingOddsPage() {
               Want a Practice Account First?
             </h3>
             <p className="text-gray-200 text-sm md:text-base max-w-xl font-semibold leading-relaxed">
-              Ask our official WhatsApp support agents for a FREE trial Demo ID. Explore the platform and test out these betting guides risk-free!
+              Ask our official WhatsApp support agents for a FREE trial Demo ID. Explore the platform and test out these guides risk-free!
             </p>
             <div className="pt-2">
               <ConicButton text="Get Your Free Demo ID Now" />

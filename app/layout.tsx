@@ -13,21 +13,21 @@ export const metadata: Metadata = {
   },
   title: "Reddy Anna Official Book ID | Online Guide | Reddy.guru",
   description:
-    "Explore Reddy Anna information, online ID guidance, sports betting and gaming resources, account help, and frequently asked questions.",
+    "Explore Reddy Anna information, online ID guidance, sports and gaming resources, account help, and frequently asked questions.",
   keywords: [
     "Reddy Anna",
     "Reddy Anna Book",
     "Reddy Anna ID",
-    "Cricket Betting ID",
-    "IPL Betting ID",
-    "Online Betting ID",
-    "Best Betting Id Provider"
+    "Cricket ID",
+    "IPL ID",
+    "Online ID",
+    "Best Id Provider"
   ],
   authors: [{ name: "Reddy Anna Book" }],
   openGraph: {
     title: "Reddy Anna Official Book ID | Online Guide | Reddy.guru",
     description:
-      "Explore Reddy Anna information, online ID guidance, sports betting and gaming resources, account help, and frequently asked questions.",
+      "Explore Reddy Anna information, online ID guidance, sports and gaming resources, account help, and frequently asked questions.",
     url: "https://reddy.guru",
     siteName: "reddyanna",
     images: [
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Reddy Anna Official Book ID | Online Guide | Reddy.guru",
     description:
-      "Explore Reddy Anna information, online ID guidance, sports betting and gaming resources, account help, and frequently asked questions.",
+      "Explore Reddy Anna information, online ID guidance, sports and gaming resources, account help, and frequently asked questions.",
     images: [
       "https://reddybookwinin.in/wp-content/uploads/elementor/thumbs/cricket-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp"
     ]
@@ -107,7 +107,7 @@ export default function RootLayout({
                   "@id": "https://reddy.guru/#webpage",
                   "url": "https://reddy.guru/",
                   "name": "Reddy Anna Official Book ID | Online Guide | reddy.guru",
-                  "description": "Explore Reddy Anna information, online ID guidance, sports betting and gaming resources, account help, and frequently asked questions.",
+                  "description": "Explore Reddy Anna information, online ID guidance, sports and gaming resources, account help, and frequently asked questions.",
                   "isPartOf": {
                     "@id": "https://reddy.guru/#website"
                   }
@@ -146,7 +146,7 @@ export default function RootLayout({
                       "name": "What sports are available on Reddy Anna?",
                       "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Available sports can change. Check the current sports or betting section on the website for the latest list and availability."
+                        "text": "Available sports can change. Check the current sports or section on the website for the latest list and availability."
                       }
                     },
                     {

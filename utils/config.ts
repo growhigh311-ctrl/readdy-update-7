@@ -20,9 +20,9 @@ export const CONFIG = {
     aviatorQuickBg: "https://reddybookwinin.in/wp-content/uploads/2026/04/aviator.png",
     sportsbookQuickBg: "https://reddybookwinin.in/wp-content/uploads/2026/04/sportsbook-quick-bg.png",
     
-    brandIntroBg: "https://reddybookwinin.in/wp-content/uploads/2026/04/Reddy-Anna-—-Indias-1-Official-Cricket-Betting-ID-Provider.jpg",
+    brandIntroBg: "https://reddybookwinin.in/wp-content/uploads/2026/04/Reddy-Anna-—-Indias-1-Official-Cricket--ID-Provider.jpg",
     whatIsReddyAnnaBg: "https://reddybookwinin.in/wp-content/uploads/2026/04/What-Is-Reddy-Anna_-A-Complete-Introduction.jpg",
-    exchangeBg: "https://reddybookwinin.in/wp-content/uploads/2026/04/Reddy-Anna-Exchange-Advanced-Betting-for-Experienced-Punters.jpg",
+    exchangeBg: "https://reddybookwinin.in/wp-content/uploads/2026/04/Reddy-Anna-Exchange-Advanced--for-Experienced-Punters.jpg",
     
     bonuses: {
       welcome: "https://reddybookwinin.in/wp-content/uploads/2026/04/welcom-bonas-removebg-preview.webp",
@@ -57,17 +57,17 @@ export const CONFIG = {
       children: [
         { label: "Demo ID", href: "/reddy-anna-id/demo-id" },
         { label: "Cricket ID", href: "/reddy-anna-id/cricket-id" },
-        { label: "IPL Betting ID", href: "/reddy-anna-id/ipl-betting-id" }
+        { label: "IPL ID", href: "/reddy-anna-id/ipl--id" }
       ]
     },
     {
       label: "Reddy Anna Sports",
       href: "#",
       children: [
-        { label: "Cricket Betting", href: "/reddy-anna-sports/cricket-betting" },
-        { label: "Football Betting", href: "/reddy-anna-sports/football-betting" },
-        { label: "Tennis Betting", href: "/reddy-anna-sports/tennis-betting" },
-        { label: "Live Betting", href: "/reddy-anna-sports/live-betting" },
+        { label: "Cricket ", href: "/reddy-anna-sports/cricket-" },
+        { label: "Football ", href: "/reddy-anna-sports/football-" },
+        { label: "Tennis ", href: "/reddy-anna-sports/tennis-" },
+        { label: "Live ", href: "/reddy-anna-sports/live-" },
         { label: "Horse Racing", href: "/reddy-anna-sports/horse-racing" }
       ]
     },
@@ -164,7 +164,7 @@ export const CONFIG = {
     },
     {
       question: "What sports are available on Reddy Anna?",
-      answer: "Available sports can change. Check the current sports or betting section on the website for the latest list and availability."
+      answer: "Available sports can change. Check the current sports or section on the website for the latest list and availability."
     },
     {
       question: "Does Reddy Anna provide live sports information?",

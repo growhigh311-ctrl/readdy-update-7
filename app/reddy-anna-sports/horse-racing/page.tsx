@@ -18,13 +18,13 @@ export default function HorseRacingPage() {
           {/* Main Title Banner */}
           <section className="w-full bg-[#0c1322] border border-[#007BFF]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4 shadow-lg shadow-black">
             <h1 className="text-[#00E5FF] font-black text-2xl md:text-3xl tracking-wide leading-tight">
-              Horse Racing Betting Online — Premium Global Racing Events
+              Horse Racing Online — Premium Global Racing Events
             </h1>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
               Bet on the most prestigious horse racing events from around the world. We offer comprehensive coverage and highly competitive odds on races in India (Mumbai, Pune, Bangalore, Kolkata, Hyderabad, Chennai) and global tracks across the UK, USA, Australia, and South Africa. Wager on Win, Place, Forecast, and Each-Way outcomes.
             </p>
             <div className="pt-2">
-              <ConicButton text="Start Horse Racing Betting" />
+              <ConicButton text="Start Horse Racing " />
             </div>
           </section>
 
@@ -50,7 +50,7 @@ export default function HorseRacingPage() {
               Get Your Racing ID Created Instantly
             </h3>
             <p className="text-gray-200 text-sm md:text-base max-w-xl font-semibold leading-relaxed">
-              Wager live on active race cards starting with just a ₹100 deposit. Contact our official WhatsApp agents and get your betting credentials inside 60 seconds!
+              Wager live on active race cards starting with just a ₹100 deposit. Contact our official WhatsApp agents and get your credentials inside 60 seconds!
             </p>
             <div className="pt-2">
               <ConicButton text="Get Your Verified ID Now" />

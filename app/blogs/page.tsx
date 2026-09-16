@@ -20,10 +20,10 @@ export default function BlogsPage() {
           {/* Main Title Banner */}
           <section className="w-full bg-[#0c1322] border border-[#007BFF]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4 shadow-lg shadow-black">
             <h1 className="text-[#00E5FF] font-black text-2xl md:text-3xl tracking-wide leading-tight">
-              Reddy Anna Blogs & Betting Guides
+              Reddy Anna Blogs & Guides
             </h1>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Welcome to the official Reddy Anna Blog portal. Here, our expert team publishes the latest betting strategies, cricket odds guides, match statistics, tournament predictions, and platform update announcements to help you maximize your success.
+              Welcome to the official Reddy Anna Blog portal. Here, our expert team publishes the latest strategies, cricket odds guides, match statistics, tournament predictions, and platform update announcements to help you maximize your success.
             </p>
           </section>
 
@@ -32,23 +32,23 @@ export default function BlogsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
                 {
-                  title: "Cricket Betting Odds Explained: Format & Value",
+                  title: "Cricket Odds Explained: Format & Value",
                   date: "May 25, 2026",
-                  desc: "Is \"5/2\" better than \"3.50\"? Understanding the math behind the odds is the first step to identifying \"value\"—the golden rule of professional betting. If you don't understand the numbers, you're not betting; you're guessing.",
-                  link: "/how-cricket-betting-odds-work/",
+                  desc: "Is \"5/2\" better than \"3.50\"? Understanding the math behind the odds is the first step to identifying \"value\"—the golden rule of professional . If you don't understand the numbers, you're not ; you're guessing.",
+                  link: "/how-cricket--odds-work/",
                   linkText: "Show More",
                   isExternal: false
                 },
                 {
                   title: "How to Wager on IPL 2026 Live Sessions",
                   date: "May 24, 2026",
-                  desc: "Learn session betting strategies (6-over, 10-over runs), player outcome props, and ball-by-ball hedging systems to manage risks and lock in profits during active matches.",
+                  desc: "Learn session strategies (6-over, 10-over runs), player outcome props, and ball-by-ball hedging systems to manage risks and lock in profits during active matches.",
                   link: CONFIG.whatsappUrl,
                   linkText: "Read Full Article",
                   isExternal: true
                 },
                 {
-                  title: "Understanding Betting Exchanges: Lay & Back Model",
+                  title: "Understanding Exchanges: Lay & Back Model",
                   date: "May 20, 2026",
                   desc: "A beginner's guide to trading live cricket odds on Reddy Anna Tiger & Sky Exchanges. Understand what backing and laying means, and how to operate like a bookmaker.",
                   link: CONFIG.whatsappUrl,
@@ -113,7 +113,7 @@ export default function BlogsPage() {
               Want a Practice Account First?
             </h3>
             <p className="text-gray-200 text-sm md:text-base max-w-xl font-semibold leading-relaxed">
-              Ask our official WhatsApp support agents for a FREE trial Demo ID. Explore the platform and test out these betting guides risk-free!
+              Ask our official WhatsApp support agents for a FREE trial Demo ID. Explore the platform and test out these guides risk-free!
             </p>
             <div className="pt-2">
               <ConicButton text="Get Your Free Demo ID Now" />

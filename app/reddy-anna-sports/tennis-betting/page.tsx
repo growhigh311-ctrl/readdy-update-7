@@ -19,13 +19,13 @@ export default function TennisBettingPage() {
           {/* Main Title Banner */}
           <section className="w-full bg-[#0c1322] border border-[#007BFF]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4 shadow-lg shadow-black">
             <h1 className="text-[#00E5FF] font-black text-2xl md:text-3xl tracking-wide leading-tight">
-              Tennis Betting Online — Grand Slams, ATP, & WTA Tournaments
+              Tennis Online — Grand Slams, ATP, & WTA Tournaments
             </h1>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Bet on global professional tennis tournaments with highly competitive odds. Whether it's Wimbledon, the US Open, French Open, Australian Open, ATP Tours, or WTA events, we provide extensive tennis betting coverage. Place your bets on Match Winner, Set Winner, Total Games, Handicap, and live point-by-point outcomes.
+              Bet on global professional tennis tournaments with highly competitive odds. Whether it's Wimbledon, the US Open, French Open, Australian Open, ATP Tours, or WTA events, we provide extensive tennis coverage. Place your bets on Match Winner, Set Winner, Total Games, Handicap, and live point-by-point outcomes.
             </p>
             <div className="pt-2">
-              <ConicButton text="Start Tennis Betting Now" />
+              <ConicButton text="Start Tennis Now" />
             </div>
           </section>
 
@@ -39,7 +39,7 @@ export default function TennisBettingPage() {
           {/* Info Panels */}
           <section className="w-full bg-[#0c1322] border border-[#007BFF]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4">
             <h3 className="text-[#00E5FF] font-black text-xl md:text-2xl">
-              Tennis Betting Exchange Features
+              Tennis Exchange Features
             </h3>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed font-semibold">
               Enjoy active live tennis trading and swift withdrawals with your Reddy Anna account:

@@ -18,23 +18,22 @@ export default function IplBettingIdPage() {
           {/* Main Title Banner */}
           <section className="w-full bg-[#0c1322] border border-[#007BFF]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4 shadow-lg shadow-black">
             <h1 className="text-[#00E5FF] font-black text-2xl md:text-3xl tracking-wide leading-tight">
-              IPL 2026 Betting ID — The Premier Hub for IPL Betting
-            </h1>
+              IPL 2026 ID — The Premier Hub for IPL </h1>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              The Indian Premier League (IPL) is the biggest cricket show on earth. With the rise of IPL 2026, the demand for verified, secure, and fast betting accounts has reached new heights. A verified Reddy Anna IPL Betting ID represents the ultimate portal for Indian punters looking to lock in maximum values, high liquidity, and competitive ball-by-ball odds.
+              The Indian Premier League (IPL) is the biggest cricket show on earth. With the rise of IPL 2026, the demand for verified, secure, and fast accounts has reached new heights. A verified Reddy Anna IPL ID represents the ultimate portal for Indian punters looking to lock in maximum values, high liquidity, and competitive ball-by-ball odds.
             </p>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
               We cover all IPL matches live. Enjoy real-time session updates, pre-match outcomes, live prop trading, and instant withdrawal processing for your winnings inside 2-4 hours guaranteed.
             </p>
             <div className="pt-2">
-              <ConicButton text="Get Your IPL Betting ID Now" />
+              <ConicButton text="Get Your IPL ID Now" />
             </div>
           </section>
 
           {/* Section: IPL Features */}
           <section className="w-full bg-[#0c1322] border border-[#007BFF]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-6">
             <h2 className="text-[#00E5FF] font-black text-xl md:text-2xl tracking-wide border-b border-[#007BFF]/10 pb-2">
-              🔥 Features of IPL Betting on Reddy Anna Book
+              🔥 Features of IPL on Reddy Anna Book
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[

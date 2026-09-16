@@ -19,13 +19,13 @@ export default function CricketBettingPage() {
           {/* Main Title Banner */}
           <section className="w-full bg-[#0c1322] border border-[#007BFF]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4 shadow-lg shadow-black">
             <h1 className="text-[#00E5FF] font-black text-2xl md:text-3xl tracking-wide leading-tight">
-              Cricket Betting Online — Premium Odds & Live Feeds
+              Cricket Online — Premium Odds & Live Feeds
             </h1>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Place your cricket bets with India's most trusted betting exchange. We provide competitive pre-match and live ball-by-ball odds across every single professional cricket league on earth. Enjoy high limits, zero commission fees on standard winnings, and instant deposits starting at just ₹100.
+              Place your cricket bets with India's most trusted exchange. We provide competitive pre-match and live ball-by-ball odds across every single professional cricket league on earth. Enjoy high limits, zero commission fees on standard winnings, and instant deposits starting at just ₹100.
             </p>
             <div className="pt-2">
-              <ConicButton text="Start Cricket Betting Now" />
+              <ConicButton text="Start Cricket Now" />
             </div>
           </section>
 
@@ -42,7 +42,7 @@ export default function CricketBettingPage() {
               Why Bet on Cricket at Reddy Anna Book?
             </h3>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed font-semibold">
-              Our betting engine updates session odds and ball outcomes in real-time, giving you the edge on:
+              Our engine updates session odds and ball outcomes in real-time, giving you the edge on:
             </p>
             <ul className="text-gray-300 text-sm md:text-base flex flex-col gap-2 font-semibold pl-4 list-disc">
               <li>IPL ball-by-ball match sessions & player outcome props.</li>
